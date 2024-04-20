@@ -31,6 +31,10 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+          gridTemplateColumns: {
+        // Simple 16 column grid
+        '13': 'repeat(13, minmax(0, 1fr))',
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],
